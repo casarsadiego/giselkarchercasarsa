@@ -1,0 +1,230 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background: rgb(48, 48, 48);
+    padding: 15px;
+}
+
+header .logo a {
+    color: #FFF;
+    font-size: 25px;
+    text-decoration: none;
+    margin-right: 250px;
+}
+
+.buscador {
+    margin-right: 200px;
+    display: inline-block;
+}
+
+header div {
+        display: inline-block;
+
+}
+
+header div nav {
+    width: 600px;
+    margin: auto;
+    display: inline-block;
+    
+}
+
+header div nav ul {
+    float: right;
+    padding: 4px;
+}
+
+header div nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+header div nav ul li a {
+    text-decoration: none;
+    color: #FFF;
+    margin-left: 60px;
+    
+}
+
+header div nav ul li a:hover {
+    color: red;
+}
+
+/*MAIN*/
+
+main {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 60px;
+    background-color: black;
+}
+
+main  h1{
+    color: #FFF;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.home-uno {
+    padding: 10px;
+    color: #FFF;
+    
+}
+
+.home-uno h2 {
+    color: #FFF;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+
+.home-productos {
+}
+
+.home-productos article {
+    color: #FFF;
+    display: inline-block;
+    margin: 20px 30px 20px 40px;
+    padding: 2%;
+/*    width: 395px;*/
+    
+    
+}
+
+section div h2 {
+    color: #FFF;
+    text-align: center;
+    
+}
+section div {
+    color: #FFF;
+    padding: 10px;
+}
+
+section div iframe {
+    color: #FFF;
+    display: inline-block;
+    margin: 30px 100px 30px 450px;
+
+}
+
+.comotrabajamos h2{
+    color: #FFF;
+    text-align: center;
+}
+
+.comotrabajamos {
+    text-align: center;
+    color: #FFF;
+}
+
+.comotrabajamos article {
+    color: #FFF;
+    display: inline-block;
+    margin: 10px;
+    border: #FFF;
+}
+
+section ul li {
+    display: inline-block;
+    margin: auto;
+    padding: 0px 30px 0px 60px;
+}
+
+.galeriadecomida{
+    color: #FFF;
+    text-align: center;
+    margin: 20px 30px 20px 30px;
+}
+
+section form {
+    float: left;
+    margin-right: 11%;
+    display: inline-block;
+}
+
+.contacto main {
+    background-color: black;
+    height: 100%;
+}
+
+.contacto form {
+    margin-left: 20px;
+    width: 45%;
+    display: inline-block;
+}
+
+.contacto form div input, .contacto form div textarea  {
+    width: 100%;
+}
+
+.contacto form div label {
+    margin: 10px;
+    display: inline-block;
+}
+
+.contacto form div input {
+    padding: 7px;
+    border: 1px grey;
+}
+
+.contacto form div input[type=submit] {
+    border: none;
+    background: rgb(43, 43, 43);
+    color: #FFF;
+    width: 100px;
+    float: right;
+}
+    
+
+.contacto iframe {
+    width: 40%;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+footer {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    background: grey;
+    color: #FFF;
+}
+
+footer nav ul li {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 20px;
+    justify-content: center;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: #FFF;
+
+}
+
+footer nav ul li a:hover {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
